@@ -1,3 +1,4 @@
+// if (require('electron-squirrel-startup')) return;
 // Modules to control application life and create native browser window
 const {
   app,
@@ -19,7 +20,7 @@ function createWindow() {
   mainWindow.loadFile('index.html')
 
   // Open the DevTools.
-  mainWindow.webContents.openDevTools()
+  // mainWindow.webContents.openDevTools()
 }
 
 // This method will be called when Electron has finished
